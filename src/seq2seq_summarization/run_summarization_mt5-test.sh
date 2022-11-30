@@ -11,7 +11,7 @@ python3 run_summarization_mt5.py \
     --max_target_length=32 \
     --learning_rate=1e-5 \
     --num_train_epochs=3 \
-    --batch_size=32 \
+    --batch_size=16 \
     --beam_search_size=4 \
     --no_repeat_ngram_size=2 \
     --do_test \
